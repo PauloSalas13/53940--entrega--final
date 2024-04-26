@@ -1,0 +1,149 @@
+.menu {
+  padding: 20px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-item img {
+  max-width: 50%;
+  height: auto;
+  transition: transform 0.3s; /* Agrega una transición de 0.3 segundos a la propiedad 'transform' */
+}
+
+.menu-item img:hover {
+  transform: scale(1.1); /* Al pasar el cursor sobre la imagen, agranda la imagen al 110% */
+}
+
+#pedidoTabla {
+  margin-bottom: 20px;
+}
+
+#pedidoTabla th,
+#pedidoTabla td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#pedidoTabla th {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+.pedido-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.pedido-contenido {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.cerrar {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton-mas,
+.boton-menos {
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.boton-mas {
+  background-color: #4caf50;
+}
+
+.boton-menos {
+  background-color: #f44336;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.buscar {
+  margin-left: auto;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#inputBusqueda {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#inputBusqueda:focus {
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  padding: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}

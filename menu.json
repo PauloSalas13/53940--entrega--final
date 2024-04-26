@@ -1,0 +1,16 @@
+    [
+        { "id": "imagen1", "titulo": "alcachofas con romesco", "precio": 5000, "img": "./img/01.jpg" },
+        { "id": "imagen2", "titulo": "arroz con pollo", "precio": 5500, "img": "./img/02.jpg" },
+        { "id": "imagen3", "titulo": "carpaccio de carabinero", "precio": 6000, "img": "./img/03.jpg" },
+        { "id": "imagen4", "titulo": "chipirones salteado", "precio": 5200, "img": "./img/04.jpg" },
+        { "id": "imagen5", "titulo": "cochinillo asado", "precio": 4800, "img": "./img/05.jpg" },
+        { "id": "imagen6", "titulo": "hamburguesa de vaca", "precio": 5300, "img": "./img/06.jpg" },
+        { "id": "imagen7", "titulo": "hummus de edamames", "precio": 5900, "img": "./img/07.jpg" },
+        { "id": "imagen8", "titulo": "mejor que un 69", "precio": 5100, "img": "./img/08.jpg" },
+        { "id": "imagen9", "titulo": "mi sushi cañi", "precio": 5400, "img": "./img/09.jpg" },
+        { "id": "imagen10", "titulo": "ostra fine claire", "precio": 5700, "img": "./img/10.jpg" },
+        { "id": "imagen11", "titulo": "rolling con oishii", "precio": 5800, "img": "./img/11.jpg" },
+        { "id": "imagen12", "titulo": "steak tarta de solo", "precio": 5600, "img": "./img/12.jpg" },
+        { "id": "imagen13", "titulo": "suru bi gran parana", "precio": 6200, "img": "./img/13.jpg" },
+        { "id": "imagen14", "titulo": "tartar de atun rojo", "precio": 5300, "img": "./img/14.jpg" }
+    ]
